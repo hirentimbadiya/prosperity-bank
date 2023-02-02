@@ -11,7 +11,7 @@ const Navbar = () => {
           <li
             key={nav.id}
             className={`font-poppins font-normal cursor-pointer text-[16px] text-white 
-            ${index === navLinks.length - 1 ? "mr-0" : "mr-11"} nav-li`}
+            ${index === navLinks.length - 1 ? "mr-0" : "mr-11"} hover:text-secondary` }
           >
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
@@ -28,14 +28,14 @@ const Navbar = () => {
 
         <div
           className={`${toggle ? "flex" : "hidden"}
-          p-4 bg-black-gradient absolute top-16 right-0 mx-4 my-1 min-w-[140px] rounded-xl sidebar`}
+          p-4 bg-black-gradient absolute top-20 right-0 mx-4 my-1 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
                 className={`font-poppins font-normal cursor-pointer text-[16px] text-white 
-            ${index === navLinks.length - 1 ? "mr-0" : "mb-3.5"} nav-li`}
+            ${index === navLinks.length - 1 ? "mb-0" : "mb-3"}  hover:text-secondary`}
               >
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>

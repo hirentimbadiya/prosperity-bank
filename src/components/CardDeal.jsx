@@ -17,10 +17,10 @@ const CardDeal = () => {
           tool. Compare offers, choose the best fit, and upgrade your finances
           now.
         </p>
-        <Button styles="mt-10"/>
+        <Button styles="mt-10" />
       </div>
       <div className={`${layout.sectionImg}`}>
-            <img src={card} alt="card" className="w-[100%] h-[100%]" />
+        <img src={card} alt="card" className="w-[100%] h-[100%]" />
       </div>
     </section>
   );

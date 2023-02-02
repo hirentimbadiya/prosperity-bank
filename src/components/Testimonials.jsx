@@ -9,7 +9,7 @@ const Testimonials = () => {
       className={`${styles.flexCenter} ${styles.paddingY} flex-col relative`}
     >
       {/* Gradient to do */}
-      <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient"/>
+      <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
       <div
         className={`flex w-full justify-between items-center
         md:flex-row flex-col sm:mb-16 mb-6 z-[1]`}
@@ -29,8 +29,8 @@ const Testimonials = () => {
         className="flex flex-wrap sm:justify-start justify-center 
       w-full feedback-container relative z-[1]"
       >
-        {feedback.map((card , index) => (
-          <FeedBackCard key={card.id} {...card}/>
+        {feedback.map((card, index) => (
+          <FeedBackCard key={card.id} {...card} />
         ))}
       </div>
     </section>

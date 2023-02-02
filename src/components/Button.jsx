@@ -7,7 +7,7 @@ const Button = () => {
       className={`py-4 px-6 bg-blue-button font-poppins font-semibold
        text-[18px] text-primary outline-none rounded-lg mt-3 `}
     >
-        Get Started
+      Get Started
     </button>
   );
 };

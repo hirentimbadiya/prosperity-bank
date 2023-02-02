@@ -48,9 +48,9 @@ const Hero = () => {
         </h1>
 
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Our expert's team considers factors such as annual interest rates and annual
-          charges to find the best credit cards for you. This helps ensure you
-          get a credit card that fits your needs.
+          Our expert's team considers factors such as annual interest rates and
+          annual charges to find the best credit cards for you. This helps
+          ensure you get a credit card that fits your needs.
         </p>
       </div>
 

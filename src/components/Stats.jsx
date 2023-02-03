@@ -6,6 +6,7 @@ const Stats = () => {
     <section
       className={`${styles.flexCenter} flex flex-row flex-wrap sm:mb-20 mb-6`}
     >
+      {/* mapping through stats object  which got id, value and title */}
       {stats.map((stat, index) => (
         <div key={stat.id} className={`flex-1 flex justify-start items-center flex-row m-3`}>
           <h4
